@@ -1,0 +1,36 @@
+# ============================================================================
+# ANAK 1 - BACKEND: MAIN API
+# FILE: backend/requirements.txt
+# ============================================================================
+# 
+# TUJUAN FILE INI:
+# Mendefinisikan semua Python packages yang dibutuhkan untuk backend FastAPI
+# 
+# INSTRUKSI:
+# Tulis 4 baris dependencies dengan versi yang PERSIS seperti ini:
+# 
+# Baris 1: fastapi==0.111.0
+#   - Framework web API modern untuk Python
+#   - Versi 0.111.0 untuk compatibility
+# 
+# Baris 2: uvicorn[standard]==0.29.0
+#   - ASGI server untuk menjalankan FastAPI
+#   - [standard] include dependencies tambahan (websockets, dll)
+#   - Versi 0.29.0 untuk stability
+# 
+# Baris 3: pydantic==2.7.1
+#   - Data validation library
+#   - Digunakan untuk request/response models
+#   - Versi 2.7.1 (Pydantic v2)
+# 
+# Baris 4: python-dotenv==1.0.1
+#   - Load environment variables dari .env file
+#   - Versi 1.0.1 untuk compatibility
+# 
+# TOTAL: 4 baris
+# 
+# CARA INSTALL NANTI:
+# pip install -r requirements.txt
+# 
+# ============================================================================
+
